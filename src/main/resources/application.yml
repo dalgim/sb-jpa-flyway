@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/test
+    username: postgres
+    password: postgres
+  jpa:
+    hibernate:
+      ddl-auto: none
+flyway:
+  clean-on-validation-error: true
