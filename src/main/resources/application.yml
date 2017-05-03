@@ -7,4 +7,6 @@ spring:
     hibernate:
       ddl-auto: none
 flyway:
-  clean-on-validation-error: true
+  clean-on-validation-error: false
+  validate-on-migrate: true
+  enabled: true
